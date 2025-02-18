@@ -1,0 +1,26 @@
+/* bugSolution.css */
+.container {
+  width: 500px; /* Explicitly define width */
+}
+
+.element {
+  width: calc(100% - 20px); /* Corrected calculation */
+}
+
+/* Correct nesting example */
+.nested-element {
+  width: calc(50% - calc(10px + 5%));
+}
+
+/*Another example with a proper parent and good nesting*/
+.another-container {
+  width: 1000px;
+}
+
+.another-element {
+ width: calc( (100% - 50px)/2);
+}
+
+.another-nested {
+  width: calc(100% - 20px);
+}
